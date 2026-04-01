@@ -1,1 +1,21 @@
-../../../.config/ghostty/config
+theme = Catppuccin Mocha
+command = /bin/zsh
+
+keybind = ctrl+h=goto_split:left
+keybind = ctrl+j=goto_split:bottom
+keybind = ctrl+k=goto_split:top
+keybind = ctrl+l=goto_split:right
+
+keybind = ctrl+a>n=new_tab
+keybind = ctrl+a>w=close_tab:this
+keybind = ctrl+a>tab=next_tab
+keybind = ctrl+a>shift+tab=previous_tab
+keybind = ctrl+a>t=last_tab
+keybind = ctrl+a>minus=new_split:down
+keybind = ctrl+a>shift+backslash=new_split:right
+keybind = ctrl+a>q=close_surface
+keybind = ctrl+a>f=toggle_split_zoom
+
+keybind = super+r=reload_config
+
+window-save-state = always
